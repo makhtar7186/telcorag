@@ -12,8 +12,7 @@ import os
 from dotenv import load_dotenv
 import sys
 __import__('pysqlite3')
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
-# Charger les variables d'environnement
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')# Charger les variables d'environnement
 load_dotenv()
 
 # Initialisation des composants
