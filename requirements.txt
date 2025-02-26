@@ -16,4 +16,4 @@ streamlit
 requests
 langchain_groq
 langchain_chroma
-pysqlite3
+
